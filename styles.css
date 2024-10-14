@@ -1,0 +1,52 @@
+.FirstSection {
+    background-image: url("https://images.unsplash.com/photo-1728716858431-001a104dd639?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstSection > h1 {
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    opacity: 0.7;
+
+}
+
+body {
+    margin: 0;
+}
+
+.SecondSection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Card {
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.CardImage {
+    width: 30%;
+}
+
+.CardText {
+    width: 70%;
+    padding: 10px;
+}
+
+.ThirdSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
